@@ -1,0 +1,311 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news-hd .more {
+    float: right;
+}
+
+.news-hd .more::after {
+    font-family: 'icomoon';
+    content: '\e920';
+}
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+}
+
+.lifeservice ul li .phone-bill {
+    background: url(../images/icons.png) no-repeat -19px -15px;
+}
+
+.lifeservice ul li .air-ticket {
+    background: url(../images/icons.png) no-repeat -79px -15px;
+}
+
+.lifeservice ul li .movie-ticket {
+    background: url(../images/icons.png) no-repeat -142px -15px;
+}
+
+.lifeservice ul li .game {
+    background: url(../images/icons.png) no-repeat -206px -15px;
+}
+
+.lifeservice ul li .colorful-ticket {
+    background: url(../images/icons.png) no-repeat -16px -85px;
+}
+
+.lifeservice ul li .oil-card {
+    background: url(../images/icons.png) no-repeat -79px -85px;
+}
+
+.lifeservice ul li .hotel {
+    background: url(../images/icons.png) no-repeat -142px -85px;
+}
+
+.lifeservice ul li .train-ticket {
+    background: url(../images/icons.png) no-repeat -206px -85px;
+}
+
+.lifeservice ul li .crowd {
+    background: url(../images/icons.png) no-repeat -16px -155px;
+}
+
+.lifeservice ul li .manage {
+    background: url(../images/icons.png) no-repeat -79px -155px;
+}
+
+.lifeservice ul li .gif-card {
+    background: url(../images/icons.png) no-repeat -140px -155px;
+}
+
+.lifeservice ul li .receipt {
+    background: url(../images/icons.png) no-repeat -202px -155px;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+/* 推荐模块 */
+
+.recom {
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 12px;
+}
+
+.recom_hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    background-color: #5B5250;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li {
+    width: 248px;
+    height: 163px;
+}
+
+.recom_bd ul li:nth-child(-n+3):after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #dddddd;
+}
+
+/* 猜你喜欢模块 */
+
+.favor {
+    height: 264px;
+    margin-top: 30px;
+}
+
+.favor-title {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+}
+
+.favor-title h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.favor-title a {
+    position: absolute;
+    float: right;
+    right: 5px;
+}
+
+.favor-title a::after {
+    content: '\ea2e';
+    font-family: 'icomoon';
+}
+
+.favor_goods {
+    height: 234px;
+    border: 1px solid #dddddd;
+}
+
+.favor_goods ul li {
+    float: left;
+    width: 199px;
+    height: 234px;
+}
+
+.favor_goods ul li img {
+    width: 100%;
+}
+
+.favor_goods ul li p {
+    margin: 10px 5px 0 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.favor_goods ul li .price {
+    font-size: 16px;
+    color: #E03C3E;
+    margin-left: 10px;
+}
+
+/* 家用电器 */
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #D6271F;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #D6271F;
+    font-weight: 400;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+}
+
+.col_210 {
+    width: 210px;
+    height: 361px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 83px;
+    height: 34px;
+    border-bottom: 1px solid #cccccc;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #cccccc;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
